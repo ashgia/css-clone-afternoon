@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: mediumblue;
+  color: white;
 }
 
 topSection {
@@ -10,11 +12,16 @@ topSection {
   width: 100%;
   background-color: mediumblue;
   box-sizing: border-box;
+  display: flex;
 }
 
 img {
   height: 50px;
   width: 50px;
+  display: flex;
+}
+
+title {
 }
 
 .navbar {
@@ -24,4 +31,14 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-link {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.button {
+  border-radius: 10%;
+  padding: 10px;
 }
