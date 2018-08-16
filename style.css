@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+topSection {
+  height: 100%;
+  width: 100%;
+  background-color: mediumblue;
+  box-sizing: border-box;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar {
+  background: mediumblue;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
