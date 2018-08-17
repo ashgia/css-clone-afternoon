@@ -43,7 +43,7 @@ topSection {
   font-size: 15px;
 }
 
-.button {
+.button1 {
   border-radius: 10%;
   padding: 10px;
   background: transparent;
@@ -51,11 +51,47 @@ topSection {
 }
 
 .middleBox {
-  width: 60%;
-  padding: 100px;
+  width: 50%;
+  padding: 80px;
   box-sizing: border-box;
   margin: 25px auto;
+  border: white;
+}
+
+.button2 {
+  background: white;
+  padding: 15px;
+  border-radius: 15%;
+  color: mediumblue;
+  font-size: 20px;
+}
+
+.bottomText {
+  transform: rotate(-90deg);
+  position: fixed;
+  bottom: 90px;
+  left: 10px;
+}
+
+.circles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid white;
+  margin: 4px;
 }
 
 .image2 {
+  height: 100px;
+  width: 100px;
 }
